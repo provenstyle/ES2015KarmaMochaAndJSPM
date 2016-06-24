@@ -12,14 +12,14 @@ module.exports = function (config) {
     },
 
     jspm: {
-      config: "app/config.js",
-      packages: "app/bower_components/system.js/dist",
+      config: "src/config.js",
+      packages: "src/bower_components/system.js/dist",
       serveFiles: [
-        "app/**/*.js",
+        "src/**/*.js",
         "node_modules/babel-core/browser.js"
       ],
       loadFiles: [
-        "tests/testSetup.js"
+        "tests/*.js"
       ]
     },
 
