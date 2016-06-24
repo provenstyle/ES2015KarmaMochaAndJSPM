@@ -14,7 +14,7 @@ module.exports = function (config) {
 
     jspm: {
       config: "src/config.js",
-      packages: "src/bower_components/system.js/dist",
+      packages: "bower_components/system.js/dist",
       serveFiles: [
         "src/**/*.js",
         "node_modules/babel-core/browser.js"
