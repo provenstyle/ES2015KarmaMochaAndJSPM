@@ -1,8 +1,8 @@
-import Card from "card";
+import messages from "messages";
 
 describe("message module", () => {
     it("should have hello world message", () => {
-        Card.should.not.be.nothing;
+        messages.hello.should.be.equal("Hello World!");
     });
 });
 
