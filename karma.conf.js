@@ -8,10 +8,6 @@ module.exports = function (config) {
     basePath: "./",
 
     files: [
-      "app/bower_components/angular/angular.js",
-      "app/bower_components/angular-route/angular-route.js",
-      "app/bower_components/angular-mocks/angular-mocks.js",
-      "app/bower_components/underscore/underscore.js"
     ],
 
     proxies: {
@@ -27,9 +23,7 @@ module.exports = function (config) {
         "node_modules/babel-core/browser.js"
       ],
       loadFiles: [
-        "tests/testSetup.js",
-        "tests/cards/*.js",
-        "tests/klondike/**/*.js"
+        "tests/testSetup.js"
       ]
     },
 
