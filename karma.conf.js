@@ -8,7 +8,8 @@ module.exports = function (config) {
     basePath: "./",
 
     proxies: {
-      "/node_modules": "/base/node_modules"
+      "/node_modules": "/base/node_modules",
+       "/base/cards": "/base/src/cards"
     },
 
     jspm: {
