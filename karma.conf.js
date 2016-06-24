@@ -7,12 +7,8 @@ module.exports = function (config) {
 
     basePath: "./",
 
-    files: [
-    ],
-
     proxies: {
-      "/node_modules": "/base/node_modules",
-      "/base/cards": "/base/app/cards"
+      "/node_modules": "/base/node_modules"
     },
 
     jspm: {
