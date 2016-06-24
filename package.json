@@ -1,9 +1,9 @@
 {
-  "name": "solitaire",
+  "name": "ES2015KarmaMochaAndJSPM",
   "private": true,
   "version": "0.0.0",
-  "description": "A game of solitaire",
-  "repository": "https://github.com/g0t4/angular-solitaire",
+  "description": "A sample test application",
+  "repository": "https://github.com/provenstyle/ES2015KarmaMochaAndJSPM",
   "license": "MIT",
   "dependencies": {
     "babel-core": "^5.8.25"
