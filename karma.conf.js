@@ -29,22 +29,19 @@ module.exports = function (config) {
 
     autoWatch: true,
 
-    frameworks: ["jspm", "jasmine", "chai"],
+    frameworks: ["jspm", "mocha", "chai"],
 
     browsers: ["Chrome"],
 
     plugins: [
       "karma-jspm",
+      "karma-mocha",
+      "karma-mocha-reporter",
       "karma-chrome-launcher",
-      "karma-jasmine",
-      "karma-junit-reporter",
       "karma-chai"
     ],
 
-    junitReporter: {
-      outputFile: "test_out/unit.xml",
-      suite: "unit"
-    }
+    reporters: ["mocha"]
 
   });
 };
