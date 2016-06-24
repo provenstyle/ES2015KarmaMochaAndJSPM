@@ -4,7 +4,7 @@ System.config({
   map: {
     "babel"   : "node_modules/babel-core/browser.js",
     "card"    : "src/cards/card.js",
-    "messages": "src/cards/messages.js",
+    "messages": "src/messages.js",
   },
   babelOptions:{
     stage: 0
