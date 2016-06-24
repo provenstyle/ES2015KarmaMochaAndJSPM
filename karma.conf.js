@@ -5,13 +5,6 @@ module.exports = function (config) {
 
   config.set({
 
-    basePath: "./",
-
-    proxies: {
-      "/node_modules": "/base/node_modules",
-      "/base/cards"  : "/base/src/cards"
-    },
-
     jspm: {
       config    : "config.js",
       packages  : "bower_components/system.js/dist",
