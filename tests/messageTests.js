@@ -1,8 +1,8 @@
-import message from "message";
+import * as foo from "messages";
 
-declare("message module", () => {
+describe("message module", () => {
     it("should have hello world message", () => {
-        message.message.should.be.equal("Hello World!");
+        messages.message.should.be.equal("Hello World!");
     });
 });
 

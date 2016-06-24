@@ -1,3 +1,3 @@
-export const message = {
-    message: "Hello World!";
-};
+export default {
+	hello: "world"
+}
