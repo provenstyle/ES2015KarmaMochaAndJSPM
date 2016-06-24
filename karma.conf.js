@@ -1,5 +1,3 @@
-/* eslint-env node*/
-
 module.exports = function (config) {
   "use strict";
 
@@ -10,7 +8,7 @@ module.exports = function (config) {
       packages  : "bower_components/system.js/dist",
       serveFiles: [
         "src/**/*.js",
-        "node_modules/babel-core/browser.js"
+        "node_modules/**/*.js"
       ],
       loadFiles: [
         "tests/*.js"
