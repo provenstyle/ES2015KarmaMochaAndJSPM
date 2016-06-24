@@ -27,6 +27,7 @@ module.exports = function (config) {
         "node_modules/babel-core/browser.js"
       ],
       loadFiles: [
+        "tests/testSetup.js",
         "tests/cards/*.js",
         "tests/klondike/**/*.js"
       ]
@@ -34,7 +35,7 @@ module.exports = function (config) {
 
     autoWatch: true,
 
-    frameworks: ["jspm", "jasmine"],
+    frameworks: ["jspm", "jasmine", "chai"],
 
     browsers: ["Chrome"],
 
@@ -42,7 +43,8 @@ module.exports = function (config) {
       "karma-jspm",
       "karma-chrome-launcher",
       "karma-jasmine",
-      "karma-junit-reporter"
+      "karma-junit-reporter",
+      "karma-chai"
     ],
 
     junitReporter: {
