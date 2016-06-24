@@ -1,7 +1,5 @@
 {
   "globals": {
-    "angular": false,
-    "_": false
   },
   "rules": {
     "no-use-before-define": [
